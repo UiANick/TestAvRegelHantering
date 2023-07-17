@@ -1,7 +1,7 @@
 // Insecure TypeScript code with security vulnerabilities
 
 // Hardcoded credentials
-const password = "admin123"; / semgrep ignore <dette er kryptert>  
+const password = "admin123"; 
 
 // Broken access control - No authorization check
 function viewAdminPanel() {
@@ -27,7 +27,7 @@ function getUserDetails(userId: string) {
 }
 
 // Security misconfiguration - Exposed API key
-const apiKey = "1234567890"; // nosemgrep
+const apiKey = "1234567890";
 
 // Insecure direct object reference - Insufficient authorization check
 function viewUserProfile(userId: string) {
@@ -38,7 +38,7 @@ function viewUserProfile(userId: string) {
 // Cross-site scripting (XSS) vulnerability - Unsafe data rendering
 function displayMessage(message: string) {
   const element = document.getElementById("message");
-  element.innerHTML = message; // nosemgrep
+  element.innerHTML = message; 
 }
 
 // Code with potential SQL injection vulnerability
@@ -61,7 +61,7 @@ function uploadFile(file: File) {
 
 // Unvalidated redirects and forwards
 function redirectUser(url: string) {
-  window.location.href = url; // nosemgrep
+  window.location.href = url; 
 }
 
 // Insecure cross-origin resource sharing (CORS) configuration
