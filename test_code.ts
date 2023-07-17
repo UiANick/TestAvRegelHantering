@@ -38,7 +38,7 @@ function viewUserProfile(userId: string) {
 // Cross-site scripting (XSS) vulnerability - Unsafe data rendering
 function displayMessage(message: string) {
   const element = document.getElementById("message");
-  element.innerHTML = message; // nosemgrep
+  element.innerHTML = message; // nosemgrep // Dette er en kommentar
 }
 
 // Code with potential SQL injection vulnerability
@@ -61,7 +61,7 @@ function uploadFile(file: File) {
 
 // Unvalidated redirects and forwards
 function redirectUser(url: string) {
-  window.location.href = url; // nosemgrep
+  window.location.href = url; // Dette er en kommentar // nosemgrep
 }
 
 // Insecure cross-origin resource sharing (CORS) configuration
