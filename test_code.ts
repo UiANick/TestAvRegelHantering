@@ -61,7 +61,7 @@ function uploadFile(file: File) {
 
 // Unvalidated redirects and forwards
 function redirectUser(url: string) {
-  window.location.href = url; // Dette er en kommentar nosemgrep
+  window.location.href = url; // Dette er nosemgrep en kommentar
 }
 
 // Insecure cross-origin resource sharing (CORS) configuration
