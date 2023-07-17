@@ -1,7 +1,7 @@
 // Insecure TypeScript code with security vulnerabilities
 
 // Hardcoded credentials
-const password = "admin123"; // semgrep ignore <dette er kryptert>  
+const password = "admin123"; / semgrep ignore <dette er kryptert>  
 
 // Broken access control - No authorization check
 function viewAdminPanel() {
