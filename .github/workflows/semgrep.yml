@@ -5,8 +5,7 @@ on:
     branches:
     - main
     - master
-    paths:
-    - test_code.ts
+ 
   schedule:
   # random HH:MM to avoid a load spike on GitHub Actions at 00:00
   - cron: 11 19 * * *
