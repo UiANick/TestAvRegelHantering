@@ -1,7 +1,7 @@
 // Insecure TypeScript code with security vulnerabilities
 
 // Hardcoded credentials
-const password = "admin123"; // semgrep-ignore
+const password = "admin123"; 
 
 // Broken access control - No authorization check
 function viewAdminPanel() {
@@ -16,7 +16,7 @@ function encryptData(data: string) {
 
 // Injection vulnerability - Unsafe use of user input
 function executeQuery(query: string) {
-  const result = db.executeQuery("SELECT * FROM users WHERE username = '" + query + "'"); // semgrep-ignore
+  const result = db.executeQuery("SELECT * FROM users WHERE username = '" + query + "'"); 
   console.log(result);
 }
 
@@ -27,7 +27,7 @@ function getUserDetails(userId: string) {
 }
 
 // Security misconfiguration - Exposed API key
-const apiKey = "1234567890"; // semgrep-ignore
+const apiKey = "1234567890"; 
 
 // Insecure direct object reference - Insufficient authorization check
 function viewUserProfile(userId: string) {
@@ -38,16 +38,16 @@ function viewUserProfile(userId: string) {
 // Cross-site scripting (XSS) vulnerability - Unsafe data rendering
 function displayMessage(message: string) {
   const element = document.getElementById("message");
-  element.innerHTML = message; // semgrep-ignore
+  element.innerHTML = message; 
 }
 
 // Code with potential SQL injection vulnerability
-const userInput = getUserInputFromForm(); // semgrep-ignore
-executeQuery(userInput); // semgrep-ignore
+const userInput = getUserInputFromForm(); 
+executeQuery(userInput); 
 
 // Insecure deserialization - Deserialize untrusted data
-const serializedData = getUserSerializedData(); // semgrep-ignore
-const user = JSON.parse(serializedData); // semgrep-ignore
+const serializedData = getUserSerializedData(); 
+const user = JSON.parse(serializedData); 
 console.log("User: ", user);
 
 // Insecure file handling - Lack of file type validation
@@ -61,15 +61,15 @@ function uploadFile(file: File) {
 
 // Unvalidated redirects and forwards
 function redirectUser(url: string) {
-  window.location.href = url; // semgrep-ignore
+  window.location.href = url; 
 }
 
 // Insecure cross-origin resource sharing (CORS) configuration
 const corsOrigin = "*";
-app.use(cors({ origin: corsOrigin })); // semgrep-ignore
+app.use(cors({ origin: corsOrigin })); 
 
 // Insecure session management - Missing session expiration
-app.use(session({ secret: "mySecretKey" })); // semgrep-ignore
+app.use(session({ secret: "mySecretKey" }));
 
 // Other potential security issues and vulnerabilities can be included as needed
 
