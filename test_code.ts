@@ -42,6 +42,60 @@ const apiKey = "1234567890";
 const apiKey = "1234567890";
 
 // Security misconfiguration - Exposed API key
+const apiKey = "1234567890";// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
+const apiKey = "1234567890";
+
+// Security misconfiguration - Exposed API key
 const apiKey = "1234567890";
 
 // Security misconfiguration - Exposed API key
