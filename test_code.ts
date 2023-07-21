@@ -92,4 +92,4 @@ main();
 
 #Her har jeg gjort en endring i branch og koden blick blocked av semgrep.
 
-
+#haha you are hacked
