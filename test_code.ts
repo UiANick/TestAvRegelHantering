@@ -90,6 +90,7 @@ main();
 
 
 
+
 #Her har jeg gjort en endring i branch og koden blick blocked av semgrep.
 #Please fuck dette opp
 #haha you are hacked
