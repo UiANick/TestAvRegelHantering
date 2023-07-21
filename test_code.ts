@@ -89,7 +89,7 @@ function main() {
 main();
 
 
-
+#Nå må det funke
 #Hackerman
 #Her har jeg gjort en endring i branch og koden blick blocked av semgrep.
 #Please fuck dette opp
